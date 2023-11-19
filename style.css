@@ -1,0 +1,148 @@
+/* Roboto Font */
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i');
+
+body {
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, system-ui;
+    margin: 0;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 16px 256px 16px 256px;
+    background-color: #1F2937;
+}
+
+nav {
+    display: flex;
+    gap: 12px;
+}
+
+nav a {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+.header-logo {
+    margin-right: auto;
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+/* Signup content */
+.signup-content {
+    display: flex;
+    padding: 64px 256px 64px 256px;
+    background-color: #1F2937;
+    gap: 32px;
+    height: 256px;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+    margin: 0;
+}
+
+.hero-sub-text {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 0;
+}
+
+.signup-content img {
+    max-width: 50%;
+    object-fit: cover;
+}
+
+.signup {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+
+.signup-button, .call-to-button {
+    text-decoration: none;
+    border: none;
+    font-weight: bold;
+    color: #F9FAF8;
+    font-size: 16px;
+    padding: 6px 24px 6px 24px;
+    border-radius: 6px;
+    background-color: #3882F6;
+    flex-grow: 0;
+}
+
+.signup-button {
+    margin-top: auto;
+}
+
+/* List */
+.random-information {
+    padding: 32px 256px 64px 256px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.list {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 16px;
+}
+
+/* Quote */
+
+.inspiring-quote {
+    padding: 64px 256px 64px 256px; 
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-attribution {
+    font-size: 24px;
+    font-weight: bold;
+    align-self: flex-end;
+}
+
+/* Call to action */
+.call {
+    padding: 64px 256px 64px 256px; 
+}
+
+.call-to-action {
+    padding: 32px 64px;
+    background-color: #3882F6;
+    display: flex;
+    align-items: center;
+    border-radius: 12px;
+}
+
+.call-to-button {
+    margin-left: auto;
+    align-self: center;
+    border: 2px solid white;
+}
+
+.white-text {
+    color: #F9FAF8;
+}
